@@ -85,6 +85,10 @@ img{
   margin-left: 6rem;
 }
 
+.btn-contato{
+  margin-left: 2rem !important;
+}
+
 #inputEmailNovidades{
   background-color: transparent !important;
   border-color: white !important;
@@ -141,6 +145,7 @@ img{
     font-size: 50px;
   }
 
+
 }
 
 @media (min-width: 62em) {
@@ -148,9 +153,27 @@ img{
     margin-top: 2rem;
   } 
 
+  .container, .container-md, .container-sm {
+    max-width: 100%;
+  }
+
   .order-md-1 {
     width: 224px !important;
   }
+
+
 }
 
+@media (min-width: 576px){
+  .container, .container-sm {
+    max-width: 100% !important;
+  }
+}
 
+@media (max-width: 991px){
+  .btn-contato{
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
+
+}
