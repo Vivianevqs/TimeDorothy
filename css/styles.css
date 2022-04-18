@@ -16,8 +16,31 @@ body{
 }
 #navbarNav ul li{
   margin-left: 0.5rem;
-}
 
+
+
+}
+h2{
+  font-size:  19px!important;
+ color: #000000!important;
+ font-style:inter;
+ font-weight:bolder !important;
+ text-align:right;
+ font-family:inter;
+ margin-left: 5rem;
+ 
+
+} 
+
+
+.lead{color:#898585 ;
+  font-size:20px !important;
+  font-style:bold;
+  font-family:inter;
+  padding-top: 10px;
+  margin-left: 5rem;
+
+}
 
 h5{
     color:#cee511 !important;
@@ -78,11 +101,15 @@ img{
   border-radius: 35px !important;
   font-size:22px;
   color:#ffffff !important;
-  background-color: #f01111 !important;
+  background-color: #040404 !important;
   text-align: center !important;
   margin-top: 20px;
   width: 280px;
-  margin-left: 6rem;
+  margin-left: 10rem;
+}
+
+.btn-contato{
+  margin-left: 2rem !important;
 }
 
 #inputEmailNovidades{
@@ -101,11 +128,10 @@ img{
   font-size: 12px !important;
 }
 
-.fontsize18{
-  font-size: 12px !important;
+.fontsize12{
+  font-size: 12px!important;
+
 }
-
-
 /* Featurettes
 ------------------------- */
 
@@ -141,6 +167,7 @@ img{
     font-size: 50px;
   }
 
+
 }
 
 @media (min-width: 62em) {
@@ -148,9 +175,27 @@ img{
     margin-top: 2rem;
   } 
 
+  .container, .container-md, .container-sm {
+    max-width: 100%;
+  }
+
   .order-md-1 {
     width: 224px !important;
   }
+
+
 }
 
+@media (min-width: 576px){
+  .container, .container-sm {
+    max-width: 100% !important;
+  }
+}
 
+@media (max-width: 991px){
+  .btn-contato{
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
+
+}
