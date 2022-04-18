@@ -21,24 +21,25 @@ body{
 
 }
 h2{
-  font-size:  20px!important;
+  font-size:  19px!important;
  color: #000000!important;
  font-style:inter;
  font-weight:bolder !important;
  text-align:center;
  font-family:inter;
- margin-left: 3rem;
+ margin-left: 9rem;
  
 
 } 
 
 
 .lead{color:#898585 ;
-  font-size:16px !important;
+  font-size:13px!important;
   font-style:bold;
   font-family:inter;
   padding-top: 10px;
-  margin-left:3rem;
+  margin-left:10rem;
+  text-align:left;
  
 
 }
@@ -104,9 +105,9 @@ img{
   color:#ffffff !important;
   background-color: #040404 !important;
   text-align: center !important;
-  margin-top: 20px;
-  width: 280px;
-  margin-left: 10rem;
+  margin-top: 26px;
+  width: 100%;
+  margin-left: 5rem;
 }
 
 .btn-contato{
