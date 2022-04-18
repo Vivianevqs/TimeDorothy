@@ -44,6 +44,8 @@ h2{
 
 }
 
+
+
 h5{
     color:#cee511 !important;
     font-size:22px;
@@ -105,9 +107,16 @@ img{
   color:#ffffff !important;
   background-color: #040404 !important;
   text-align: center !important;
-  margin-top: 26px;
-  width: 100%;
-  margin-left: 5rem;
+  margin-top: 50px;
+  width: 75%;
+  margin-left: 8rem;
+}
+
+hr{
+
+  background-color:#000000 !important;
+  color:#ffffff !important;
+  
 }
 
 .btn-contato{
