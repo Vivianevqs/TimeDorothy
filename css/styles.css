@@ -21,25 +21,25 @@ body{
 
 }
 h2{
- font-size:  19px!important;
+ font-size:  14px!important;
 color: #000000!important;
 font-style:inter;
 font-weight:bolder !important;
 text-align:center;
 font-family:inter;
-margin-left: 9rem;
+margin-left: 11rem;
 
 
 } 
 
 
-.lead{color:#898585 ;
- font-size:13px!important;
+.lead{color:#343434 ;
+ font-size:14px!important;
  font-style:bold;
  font-family:inter;
  padding-top: 10px;
  margin-left:10rem;
- text-align:left;
+ text-align:center;
 
 
 }
@@ -104,12 +104,14 @@ img{
 .bordertitle{
  border-radius: 35px !important;
  font-size:22px;
+ font-family: inter;
+ font-style: bold;
  color:#ffffff !important;
  background-color: #040404 !important;
  text-align: center !important;
  margin-top: 50px;
  width: 75%;
- margin-left: 8rem;
+ margin-left: 9rem;
 }
 
 hr{
