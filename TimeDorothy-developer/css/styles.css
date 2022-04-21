@@ -21,24 +21,25 @@ body{
 
 }
 h2{
- font-size:  16px!important;
+ font-size:  14px!important;
 color: #000000!important;
 font-style:inter;
-font-weight:bold !important;
+font-weight:bolder !important;
 text-align:center;
 font-family:inter;
-margin-left: 10rem;
+margin-left: 11rem;
 
 
 } 
 
 
-.lead{color:#000000 ;
- font-size:13px!important;
- font-style:italic;
+.lead{color:#343434 ;
+ font-size:14px!important;
+ font-style:bold;
  font-family:inter;
- margin-left:10rem;
- text-align:center;
+ padding-top: 10px;
+ margin-left:12rem;
+ text-align:left;
 
 
 }

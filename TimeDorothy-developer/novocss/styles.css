@@ -16,6 +16,13 @@ body{
     margin-left: 0.5rem;
 }
 
+h1{
+  font-size:  14px!important;
+  color: #d12121!important;
+  font-style:inter;
+  font-weight:bolder !important;
+}
+
 h2{
     font-size:  14px!important;
     color: #000000!important;
