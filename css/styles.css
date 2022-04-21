@@ -14,7 +14,7 @@ body{
  font-weight: bold;
  font-size: 22px;
 }
-#navbarNav ul li{
+#navbarNav {
  margin-left: 0.5rem;
 
 
@@ -28,7 +28,7 @@ text-align:center;
 font-family:inter;
 margin-top: 20px;
 margin-bottom: 30px;
-margin-left: 65px;
+margin-left: 85px;
 
 
 
@@ -37,14 +37,16 @@ margin-left: 65px;
 .Y{ font-size:14px!important;
   font-style:regular;
   font-family:inter;
-  margin-left: 70px;
-  color:#343232 
+  margin-left: 97px;
+  color:#343232;
+  text-align:center;
 
 }
-.serviços{
+.ancora-conheca-meu-site{
   font-family: inter;
   font-size: 100px;
-  color: #000000;
+  color: #fef8f8;
+  text-align:center;
   
 }
 
@@ -72,6 +74,7 @@ h3{
 .ancora-conheca-meu-site{font-family: inter;
   font-size:25px;
   font-style:bold;
+  margin-left: 10px;
 
 }
 
@@ -120,11 +123,11 @@ img{
  font-family: inter;
  font-style: bold;
  color:#ffffff !important;
- background-color: #040404 !important;
+ background-color:#FF1493 !important;
  text-align: center !important;
  margin-top: 50px;
- width: 75%;
- margin-left: 7rem;
+ width: 500px;
+ margin-left: 4rem;
 }
 
 hr{
