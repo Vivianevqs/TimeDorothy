@@ -30,5 +30,21 @@ function validaFormulariocontato(){
   }
 
   function redirectEmail() {
-    window.open("mailto:vivianeq.silva@gmail.com");
+    window.open("https://accounts.google.com/AccountChooser/identifier?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser");
   }
+
+   function redirectFacebook() {
+    window.open("https://pt-br.facebook.com/");
+  }
+
+  function redirectInstagram() {
+    window.open("https://www.instagram.com/princepreta/");
+  }
+
+  function redirectLinkedin() {
+    window.open("https://www.linkedin.com/in/solangefeliciano/");
+  }
+
+  
+
+ 
