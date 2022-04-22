@@ -1,0 +1,276 @@
+body {
+    font-family: Oxygen, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    background-color: #041746 !important;
+    background-image: linear-gradient(to bottom, #041746 30%, #FF1493, #041746, #041746);
+}
+
+.bg-menu {
+    background-color: #040b29 !important;
+}
+
+#navbarNav {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#navbarNav {
+    margin-left: 0.5rem;
+}
+
+.titulo {
+    font-size: 15px !important;
+    color: #000000 !important;
+    font-style: inter;
+    text-align: center;
+    font-family: inter;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 85px;
+}
+
+hr.divisão {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 0px 2px #ff1493;
+}
+
+hr.divisão { /* Not really supposed to work, but does */
+    content: "\00a0"; /* Prevent margin collapse */
+}
+
+
+h5 {
+    color: #cee511 !important;
+    font-size: 22px;
+}
+
+
+h3, h4, .col-4 p {
+    color: #ffffff !important;
+}
+
+
+.h4 {
+    color: #ffffff !important;
+    font-style: italic;
+}
+
+
+.Ser {
+    font-family: inter;
+    font-size: 25px;
+    font-style: bold;
+
+}
+
+img {
+    width: 100%;
+}
+
+.container-md {
+    max-width: 900px !important;
+}
+
+.nopadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.btn-pink {
+    background-color: #FF1493 !important;
+    border-color: #FF1493 !important;
+    border-radius: 35px !important;
+}
+
+.btn-pink-lg {
+    min-width: 125px !important;
+}
+
+.btn-pink:hover {
+    background-color: #C71585 !important;
+    border-color: #C71585 !important;
+}
+
+.btn-pink-margin {
+    margin-left: 5px !important;
+
+}
+
+.bordertitle {
+    border-radius: 35px !important;
+    font-size: 22px;
+    font-family: inter;
+    color: #ffffff !important;
+    background-color: #FF1493 !important;
+    text-align: center !important;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 4rem;
+}
+
+
+.btn-contato {
+    margin-left: 2rem !important;
+    font-weight: bold !important;
+    border-radius: 0.6rem !important;
+}
+
+#inputEmailNovidades {
+    background-color: transparent !important;
+    border-color: #f8f8ff !important;
+    border-width: 2px !important;
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-radius: 0px !important;
+}
+
+.inputplaceholder ::placeholder {
+    color: #f8f8ff !important;
+    text-align: center !important;
+    font-size: 12px !important;
+}
+
+.fontsize12 {
+    font-size: 12px !important;
+}
+
+
+.section-servicos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8f8ff;
+    margin-top: 0%;
+    padding-bottom: 53px;
+    padding-top: 40px;
+}
+
+.card-redes-sociais {
+    background-color: #040B28;
+    width: 200px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f8f8ff;
+    text-decoration: none;
+    border-radius: 0.9rem;
+    margin: 0.1rem;
+}
+
+
+.card-redes-sociais:hover {
+    background-color: #E80D75;
+    color: #ffffff;
+    font-weight: bold;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.nome-rede-social {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nome-usuario-rede-social {
+    font-size: 13px;
+}
+
+.destaque-nome {
+    color: #f5008f;
+    font-weight: bold;
+}
+
+.icone-rede-social {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.nome-usuario-rede-social {
+    text-align: center;
+}
+
+.div-teste {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 101%;
+}
+
+
+/** About section **/
+
+#about-section {
+    padding: 14px;
+    text-align: center;
+    background-color: #ff3848;
+    color: #f8f8ff;
+}
+
+/** About section **/
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ff1493;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.9s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .8
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
