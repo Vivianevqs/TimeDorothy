@@ -27,6 +27,15 @@ body{
     margin-bottom: 30px;
     margin-left: 85px;
 }
+hr.participações{
+  border: 0;
+  height: 0; /* Firefox... */
+  box-shadow: 0 0 0px 2px #ff1493;
+}
+hr.participações {  /* Not really supposed to work, but does */
+  content: "\00a0";  /* Prevent margin collapse */
+}
+
 
 h5{
    color:#cee511 !important;
