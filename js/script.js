@@ -45,9 +45,7 @@ function validaFormulariocontato(){
     window.open("https://www.linkedin.com/in/solangefeliciano/");
   }
 
-  
-
-//JavaScript do Carousel de imagens/slideshow
+  //JavaScript do Carousel de imagens/slideshow
   let slideIndex = 0;
 showSlides();
 
