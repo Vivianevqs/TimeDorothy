@@ -4,12 +4,12 @@ Este repositório reúne os arquivos necessários à criação do primeiro websi
 
 A criação de um website para a BlackWoman Consultoria foi proposta pela [WoMakersCode](https://womakerscode.org/) à turma do curso [Construdelas](https://womakerscode.org/construdelas), como projeto a ser feito em grupo, com o objetivo de colocar em prática os conhecimentos adquiridos nas tecnologias de Front End. 
 
-## Contribuidoras
-- [Anne Caroline](https://github.com/AnneCBSx)
-- [Maria Eduarda Leal](https://github.com/madukleal)
-- [Maria Vitória Souza](https://github.com/vitoriasouzadev)
-- [Mia C. F.](https://github.com/miachafer)
-- [Viviane Quaresma Silva](https://github.com/Vivianevqs)
+## Linkedin & Github das Contribuidoras
+- [Anne Caroline](https://www.linkedin.com/in/anne-caroline-37a277147/) | [AnneCBSx](https://github.com/AnneCBSx)
+- [Maria Eduarda Leal](https://www.linkedin.com/in/mariaeduardakleal/) | [madukleal](https://github.com/madukleal)
+- [Maria Vitória Souza](https://www.linkedin.com/in/vitoriasouzadev/) | [vitoriasouzadev](https://github.com/vitoriasouzadev)
+- [miachafer](https://github.com/miachafer)
+- [Viviane Quaresma Silva](https://www.linkedin.com/in/viviane-quaresma-silva-3b208a157/) | [Vivianevqs](https://github.com/Vivianevqs)
 
 ## Instalação
 
