@@ -1,5 +1,5 @@
 body{
-    font-family:Inter;
+    font-family: Oxygen, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color:#041746 !important;
     background-image: linear-gradient( to bottom, #041746 30%, #FF1493 , #041746, #041746 ); 
 }
@@ -22,19 +22,32 @@ body{
     color: #000000!important;
     font-style:inter;
     text-align:center;
-    font-family:inter;
+    font-family: Oxygen, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 85px;
 }
-hr.divisão{
-  border: 0;
-  height: 0; /* Firefox... */
-  box-shadow: 0 0 0px 2px #ff1493;
-}
-hr.divisão {  /* Not really supposed to work, but does */
-  content: "\00a0";  /* Prevent margin collapse */
-}
+
+.separator{
+  border-top: 1px dashed rgb(73, 15, 189);
+  border-bottom: 1px solid rgb(76, 64, 180);
+      color: rgb(255, 255, 255);
+      background-color:  rgb(73, 15, 189);
+      width: 50%;
+      height: 20px;
+      border-radius: 3.5px;
+      border-bottom:26px solid rgb(76, 64, 180);
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-style: bol;
+      font: size 18px;
+    }
+    .separator > span {
+      font-size: 26px;
+      background-color:  rgb(73, 15, 189);
+      padding: 0 10px;
+      
+    }
 
 
 h5{
@@ -58,18 +71,26 @@ h3{
   font-style: italic;
   color:#ffffff !important;
 }
-.ancora-conheca-meu-site{font-family: inter;
-  font-size:25px;
-  font-style:bold;
-  margin-left: 10px;
+.ancora-conheca-meu-site{
+
+  border-top: 1px dashed rgb(73, 15, 189);
+  border-bottom: 1px solid rgb(76, 64, 180);
+      color: rgb(255, 255, 255);
+      background-color:  rgb(73, 15, 189);
+      width: 50%;
+      height: 20px;
+      border-radius: 3.5px;
+      border-bottom:26px solid rgb(76, 64, 180);
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-style: bold;
+      font: size 18px;
 
 }
 
-.Ser{ font-family: inter;
-  font-size:25px;
-  font-style:bold;
 
-}
+
+
 img{
   width: 100%;
 }
@@ -106,7 +127,7 @@ img{
 .bordertitle{
  border-radius: 35px !important;
  font-size:22px;
- font-family: inter;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
  font-style: bold;
  color:#ffffff !important;
  background-color:#FF1493 !important;
@@ -247,14 +268,14 @@ text-align: center;
 }
 
 #about-section{
-  display: flex;
-}
+  display: flex;}
 
 
 #image_about img{
   width: 250px;
-  height: auto;
+  height: 10px;
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 #image_about {
@@ -263,16 +284,28 @@ text-align: center;
 
 #text_about {
   flex: 1;
-}
+  font-family:  Oxygen, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
 
+}
+.divider{
+  border-top: 1px dashed rgb(73, 15, 189);
+  border-bottom: 1px solid rgb(76, 64, 180);
+      color: #fff;
+      background-color: #fff;
+      height: 70px;
+      width: 100%;
+      margin-top: 0%;
+}
 
 /** About section **/
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 400px;
   position: relative;
   margin: auto;
+
 }
 
 /* Caption text */
