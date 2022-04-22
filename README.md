@@ -18,3 +18,4 @@ Nenhuma instalação é necessária, pois o website foi implantado via Netlify.
 ## Veja o resultado
 
 O website está disponível [AQUI](https://blackwoman.netlify.app/)
+
