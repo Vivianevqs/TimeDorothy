@@ -1,53 +1,31 @@
 body{
-
-  font-family:Inter;
-  background-color:#041746 !important;
-     background-image: linear-gradient( to bottom, #041746 30%, #FF1493 , #041746, #041746 ); 
+    font-family:Inter;
+    background-color:#041746 !important;
+    background-image: linear-gradient( to bottom, #041746 30%, #FF1493 , #041746, #041746 ); 
 }
 
-
 .bg-menu{
- background-color: #040b29 !important;
+     background-color: #040b29 !important;
 } 
 
 #navbarNav{
- font-weight: bold;
- font-size: 22px;
+    font-weight: bold;
+    font-size: 22px;
 }
+
 #navbarNav {
- margin-left: 0.5rem;
-
-
-
+    margin-left: 0.5rem;
 }
+
 .titulo{
- font-size:  15px!important;
-color: #000000!important;
-font-style:inter;
-text-align:center;
-font-family:inter;
-margin-top: 20px;
-margin-bottom: 30px;
-margin-left: 85px;
-
-
-
-}
-
-.Y{ font-size:14px!important;
-  font-style:regular;
-  font-family:inter;
-  margin-left: 97px;
-  color:#343232;
-  text-align:center;
-
-}
-.ancora-conheca-meu-site{
-  font-family: inter;
-  font-size: 100px;
-  color: #fef8f8;
-  text-align:center;
-  
+    font-size:  15px!important;
+    color: #000000!important;
+    font-style:inter;
+    text-align:center;
+    font-family:inter;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 85px;
 }
 
 h5{
@@ -313,7 +291,7 @@ text-align: center;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #f5008f;
+  background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
