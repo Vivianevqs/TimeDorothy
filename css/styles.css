@@ -20,9 +20,8 @@ body {
 .titulo {
     font-size: 15px !important;
     color: #000000 !important;
-    font-style: inter;
     text-align: center;
-    font-family: inter;
+    font-family: Inter, sans-serif;
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 85px;
@@ -31,7 +30,7 @@ body {
 hr.divisão {
     border: 0;
     height: 0; /* Firefox... */
-    box-shadow: 0 0 0px 2px #ff1493;
+    box-shadow: 0 0 0 2px #ff1493;
 }
 
 hr.divisão { /* Not really supposed to work, but does */
@@ -57,23 +56,17 @@ h3, h4, .col-4 p {
 
 
 .Ser {
-    font-family: inter;
+    font-family: Inter, sans-serif;
     font-size: 25px;
-    font-style: bold;
-
 }
 
 img {
     width: 100%;
 }
 
-.container-md {
-    max-width: 900px !important;
-}
-
 .nopadding {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .btn-pink {
@@ -99,7 +92,7 @@ img {
 .bordertitle {
     border-radius: 35px !important;
     font-size: 22px;
-    font-family: inter;
+    font-family: Inter, sans-serif;
     color: #ffffff !important;
     background-color: #FF1493 !important;
     text-align: center !important;
@@ -110,7 +103,6 @@ img {
 
 
 .btn-contato {
-    margin-left: 2rem !important;
     font-weight: bold !important;
     border-radius: 0.6rem !important;
 }
@@ -122,7 +114,7 @@ img {
     border-top: transparent !important;
     border-left: transparent !important;
     border-right: transparent !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
 }
 
 .inputplaceholder ::placeholder {
@@ -137,19 +129,17 @@ img {
 
 
 .section-servicos {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
     background-color: #f8f8ff;
-    margin-top: 0%;
+    margin-top: 0;
     padding-bottom: 53px;
     padding-top: 40px;
 }
 
 .card-redes-sociais {
     background-color: #040B28;
-    width: 200px;
-    height: 221px;
+    width: 100%;
+    height: 12rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,14 +160,15 @@ img {
     transform: scale(1.1);
 }
 
-.nome-rede-social {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.nome-usuario-rede-social {
+    text-align: center;
+    font-size: 0.9rem;
 }
 
-.nome-usuario-rede-social {
-    font-size: 13px;
+.nome-rede-social {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5%;
 }
 
 .destaque-nome {
@@ -186,20 +177,9 @@ img {
 }
 
 .icone-rede-social {
-    width: 40px;
-    height: 40px;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-bottom: 10px;
-}
-
-.nome-usuario-rede-social {
-    text-align: center;
-}
-
-.div-teste {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 101%;
 }
 
 
