@@ -165,6 +165,89 @@ img {
     font-size: 0.9rem;
 }
 
+
+@media (min-width: 0px) {
+    .parag {
+        font-size: 0.8rem;
+
+    }
+
+    .nome-rede-social {
+        font-size: 0.7rem !important;
+    }
+
+    .nome-usuario-rede-social {
+        font-size: 0.6rem;
+    }
+
+    .img-palestra {
+        width: 40% !important;
+        margin-top: auto !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .parag {
+        font-size: 0.6rem;
+    }
+
+
+    .nome-rede-social {
+        font-size: 0.7rem !important;
+    }
+
+    .nome-usuario-rede-social {
+        font-size: 0.6rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .parag {
+        font-size: 0.8rem;
+    }
+
+    .nome-rede-social {
+        font-size: 0.9rem !important;
+    }
+
+    .nome-usuario-rede-social {
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .parag {
+        font-size: 1rem;
+    }
+
+    .nome-rede-social {
+        font-size: 1.2rem !important;
+    }
+
+    .nome-usuario-rede-social {
+        font-size: 1rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .parag {
+        font-size: 1.3rem;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .parag {
+        font-size: 1.5rem;
+    }
+}
+
+
 .nome-rede-social {
     font-size: 1.1rem;
     font-weight: bold;
