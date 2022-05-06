@@ -111,8 +111,7 @@ img {
 
 .btn-contato {
     margin-left: 2rem !important;
-    font-weight: bold !important;
-    border-radius: 0.6rem !important;
+    font-weight: bold!important;
 }
 
 #inputEmailNovidades {
