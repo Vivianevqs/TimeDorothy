@@ -251,7 +251,38 @@ img {
     transition: background-color 0.6s ease;
 }
 
+.fa {
+    padding: 14px;
+    height: 54px;
+    width: 58px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
 
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.fa-linkedin:before{
+    font-size: 24px;
+}
+
+.fa-instagram:before{
+    font-size: 24px;
+}
+
+
+.fa-linkedin {
+    background: #ff1493;
+    color: white;
+}
+
+.fa-instagram {
+    background: #ff1493;
+    color: white;
+}
 /* Fading animation */
 .fade {
     animation-name: fade;
