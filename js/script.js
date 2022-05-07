@@ -1,17 +1,34 @@
 document.getElementById("inputEnviar").addEventListener("click", validaFormulariocontato)
 
-function validaFormulariocontato(){
+function validaFormulariocontato() {
 
-  if(document.getElementById("inputNome").value != "" &&
-      document.getElementById("inputEmail").value != "" &&
-      document.getElementById("inputMensagem").value != "" &&
-      document.getElementById("inputTelefone").value != "" ){
+  if (document.getElementById("inputNome").value != "" &&
+    document.getElementById("inputEmail").value != "" &&
+    document.getElementById("inputMensagem").value != "" &&
+    document.getElementById("inputTelefone").value != "") {
+
+    let bodyMensagem = "Nome: " +document.getElementById("inputNome").value
+                      +"<br>Email: "+document.getElementById("inputEmail").value
+                      +"<br>Telefone: "+document.getElementById("inputTelefone").value 
+                      +"<br>Mensagem: "+document.getElementById("inputMensagem").value;
+                      
+
+    Email.send({
+      SecureToken : "9ba0cd20-b58b-4f3d-b8cf-cc6f76e63e4a",
+      To: 'vivianeq.silva@gmail.com',
+      From: 'caleoterror@gmail.com',
+      Subject: "Form de contato Site BlackWoman",
+      Body: bodyMensagem,
+    }).then(
+      message => alert(message)
+    );
 
     alert("Prontinho! logo logo você receberá nosso contato!.")
-   }else{
-     alert("Por favor, preencha os campos em branco.")
-   }
- }
+
+  } else {
+    alert("Por favor, preencha os campos em branco.")
+  }
+}
 
  document.getElementById("btnCadastrarEmailEnviar").addEventListener("click", validaFormularioEmail)
 
